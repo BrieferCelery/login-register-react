@@ -20,6 +20,10 @@ export class Login extends React.Component{
                             <input type="text" name="username" placeholder="username"/>
                         </div>
                         <div className="form-group">
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" placeholder="username"/>
+                        </div>
+                        <div className="form-group">
                             <label htmlFor="password">Password</label>
                             <input type="password" name="password" placeholder="password"/>
                         </div>
